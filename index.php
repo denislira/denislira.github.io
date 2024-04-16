@@ -1,17 +1,4 @@
-﻿<?php 
-// include("config.php");
-
-// @session_start();
-// if (isset($_SESSION['nome']) && isset($_SESSION['senha']) && isset($_SESSION['nivel'])){
-//    echo "<script>top.location.href='principal.php';</script>";
-// }
-
-// if (isset($_GET['aviso'])){
-//   $aviso = $_GET['aviso'];
-// }
-?>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
   <meta charset=utf-8 />
@@ -67,7 +54,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark  w-100">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Cristocêntrico</a>
+            <a class="navbar-brand" href="#">Cristocêntrico PHP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
