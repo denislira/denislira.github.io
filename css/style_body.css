@@ -1,0 +1,52 @@
+<style type="text/css">
+body, html{
+font-family: century Gothic, TW Cen MT, Verdana, Arial;
+color:#5c5c5c;
+}
+vermelho{color:red;}
+azul{color:blue;}
+verde{color:green;}
+rosa{color:pink;}
+preto{color:Black;}
+branco{color:#fff;}
+a:link {text-decoration:none; color:#c043a2; }
+a:visited {color:#c043a2}
+::selection { background: #dc80fd; color: #fff; }
+::-moz-selection { background: #dc80fd; color: #fff; }
+ aviso{top:10px; left:10px; position:relative; font-size:32px; color:#fff; background-color:#00CDCD;
+        padding:10; font-family: Century gothic, Lucida Sans, Verdana, arial;}
+ #statusCO{color:#52c256;}
+ #statusEM{color:#c043a2;}
+ 
+ #div_esquerda{
+ position:relative;
+ width:490 px;
+ height:1000px;
+ left:0;
+ top:0;
+ float:left;
+ margin:0;
+ }
+ #div_direita{
+ position:relative;
+ width:490px;
+ height:1000px;
+ right:0;
+ top:0;
+ float:right;
+ margin:0;
+ }
+.borderimage
+    {border: 5px solid #eee;
+    background-color: #COR DO FUNDO;
+    padding:0px;
+    margin:0px;}
+.borderimage:hover
+    {border: 5px solid #c043a2;;
+    background-color: #COR DO FUNDO;
+    padding:0px;
+    margin:0px;}
+</style>
+<?php
+ ini_set('default_charset','UTF-8');
+?>

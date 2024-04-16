@@ -1,0 +1,73 @@
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+
+}
+body {
+  background: #eee;
+}
+a:focus {
+  outline: none;
+}
+.content {
+  width: 100%;
+}
+.clearfix:after {
+  content: '.';
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+ 
+/* Abas */
+.tabs-content {
+  background: #eee;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+ 
+/* Menu das abas */
+.tabs-menu {
+  background: #102d61;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.tabs-menu ul {
+   list-style: none;
+}
+.tabs-menu ul li {
+  float: left;
+}
+.tabs-menu ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+.tabs-menu ul li a.active-tab-menu {
+  background: #eee;
+  color: #000;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+ 
+/* Conteúdo das abas */
+.tabs {
+  display: none;
+  padding: 20px;
+}
+.first-tab {
+  display: block;
+}
+</style>

@@ -1,0 +1,25 @@
+<style type="text/css">
+<!--[if lte IE 7]>
+<!--[if lte IE 8]>
+div.scrollTable{/*background: #fff;*/border: 0px solid #888;
+}
+div.scrollTable table.header, div.scrollTable div.scroller table{
+width: 100%;
+border-collapse: collapse;
+}
+div.scrollTable table.header th, div.scrollTable div.scroller table td{
+ /*border: 1px solid #444;*/padding: 2px 0px;border-bottom:1px;}
+div.scrollTable table.header th{/*  background: #ddd;*/}
+div.scrollTable div.scroller{height: 300px;overflow: auto;overflow-x:hidden; border-bottom:1px;}
+div.scrollTable .coluna75px{width: 75px;}
+div.scrollTable .coluna100px{width: 100px;}
+div.scrollTable .coluna150px{width: 150px;}
+::-webkit-scrollbar {width: 10px;height: 10px; -webkit-border-radius: 16px;}
+::-webkit-scrollbar-track-piece {background-color: #ffffff;}
+::-webkit-scrollbar-thumb:vertical {height: 5px;background-color: #666;-webkit-border-radius: 3px;}
+::-webkit-scrollbar-thumb:horizontal {width: 5px;background-color: #666;-webkit-border-radius: 3px;}
+::-webkit-scrollbar {width: 10px;height: 10px;}
+::-webkit-scrollbar-track-piece  {background-color: #ffffff;}
+::-webkit-scrollbar-thumb:vertical {height: 30px;background-color: #666;}
+<![endif]-->
+</style>
