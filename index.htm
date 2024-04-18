@@ -12,8 +12,10 @@
        @font-face {font-family: 'Fontepadrao';src: url('./css/fontes/RobotoRegular.ttf'); font-weight: normal; font-style: normal; }
        #myVideo {position: relative; z-index: -1; top: 0; left: 0;width: 100%; display: block;/*height: 100%;*//*object-fit: cover;*/ }
        body{font-family:'Fontepadrao', Calibri; margin:0; padding:0; font-weight: bold; font-size: 100%; background-color: #000; color: #eee;}
+       audio{height: 30px}
+       .titulo{font-size: 8vw}
   </style>
-  </head> 
+</head> 
 
 <body>
 
@@ -28,7 +30,7 @@
 
 
     <div class="position-absolute w-100"> 
-        <nav class="navbar navbar-expand-lg navbar-dark  w-100">
+        <nav class="navbar navbar-expand-lg navbar-dark w-100">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Cristocêntrico</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,9 +52,9 @@
           </div>
         </nav>
 
-        <div class="my-5 py-5 text-center">
+        <div class="my-sm-5 py-md-5 text-center">
             <div class="col-md-12 ">
-              <h1 class="text-white display-1">Cristo é o Centro</h1>
+              <h1 class="text-white titulo">Cristo é o Centro</h1>
             </div>
             <audio controls autoplay preload id="meuAudio">
               <source src="musica/musica.mp3" type="audio/mpeg">
@@ -66,17 +68,17 @@
 <div class="row">
       
       <div class="col-md-12 mx-auto text-center">
-        <h1 class=" display-2">Section 2</h1>
+        <h1 class=" titulo">Fotos</h1>
       </div>
-      
-<section class="Album">
+
+  <section class="Album">
   <!-- Gallery -->
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0">
         <div class="col-3">
           <div class="card shadow-sm border" style="background-color: #000;">
             <img src="https://transforms.cdn.bethelmusic.com/production/artists/900x1200-PAUL.jpg?w=1200&fm=webp&auto=compress&fit=clip&dm=1696283297&s=f71c468eb18c0e3711660ff6bf2ef11d" width="100%" />
             <div class="card-body">
-              <p class="card-text text-info">Paul McClure</p>
+              <p class="card-text text-white">Paul McClure</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
@@ -90,7 +92,7 @@
           <div class="card shadow-sm border" style="background-color: #000;">
             <img src="https://transforms.cdn.bethelmusic.com/production/artists/JENN_2023-09-29-223821_bgro.png?w=1200&fm=webp&auto=compress&fit=clip&dm=1696027101&s=1ef887af4c38d7199ea29df4da3b9f32" width="100%" />
             <div class="card-body">
-              <p class="card-text text-info">Jenn Johnson</p>
+              <p class="card-text text-white">Jenn Johnson</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
@@ -104,7 +106,7 @@
           <div class="card shadow-sm border" style="background-color: #000;">
             <img src="https://transforms.cdn.bethelmusic.com/production/artists/BRIAN_2023-09-29-222857_gzik.png?w=1200&fm=webp&auto=compress&fit=clip&dm=1696026537&s=8f055cda338a7c777a3cba227838f5b6" width="100%" />
             <div class="card-body">
-              <p class="card-text text-info">Kristene DiMarco</p>
+              <p class="card-text text-white">Kristene DiMarco</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
@@ -118,7 +120,7 @@
           <div class="card shadow-sm border" style="background-color: #000;">
             <img src="https://transforms.cdn.bethelmusic.com/production/artists/Z_2023-09-29-225446_rtge.png?w=1200&fm=webp&auto=compress&fit=clip&dm=1696028086&s=93da90b73e119098815e5c4e767dbfa9" width="100%" />
             <div class="card-body">
-              <p class="card-text text-info">John Wilds</p>
+              <p class="card-text text-white">John Wilds</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
@@ -130,11 +132,78 @@
         </div>
   </div>
   <!-- Gallery -->
-</section>
+ </section>
       
 </div> <!--ROW -->
 
+<div class="row">
+    <hr class="featurette-divider">
 
+    <div class="row featurette p-5">
+      <div class="col-md-7 ">
+        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
+        <p class="lead">Made For More is the second live worship album from Bethel Music songwriter and artist Josh Baldwin. These 8 tracks have one central theme--the unifying sound of corporate worship for the local church. With inspiration from Isaiah 43:1, this album was written to inspire, encourage, and point hearts back to their Creator. Listen now anywhere you stream music!</p>
+      </div>
+      <div class="col-md-5">
+        <img src="imagens/foto1.png" width="70%" />
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+</div><!--ROW -->
+
+
+<div class="row border-top bg-white text-dark">
+  <div class="my-3 p-3  rounded shadow-sm">
+    <h6 class="border-bottom pb-2 mb-0 titulo">Músicas</h6>
+      <div class="d-flex pt-3">
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block ">Toda Via me Alegrarei com Efeito </strong>
+        </p>
+        <audio controls autoplay preload id="meuAudio">
+          <source src="musica/Toda_Via_me_Alegrarei.mp3" type="audio/mpeg">
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
+      </div>
+      <div class="d-flex  pt-3">
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block ">Jericó </strong>
+        </p>
+        <audio controls autoplay preload id="meuAudio">
+          <source src="musica/JERICO.mp3" type="audio/mpeg">
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
+      </div>
+      <div class="d-flex  pt-3">
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block ">Jeová Jireh </strong>
+        </p>
+        <audio controls autoplay preload id="meuAudio">
+          <source src="musica/JEOVA_JIREH.mp3" type="audio/mpeg">
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
+      </div>
+      <div class="d-flex  pt-3">
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block ">Escudo </strong>
+        </p>
+        <audio controls autoplay preload id="meuAudio">
+          <source src="musica/ESCUDO.mp3" type="audio/mpeg">
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
+      </div>
+      <div class="d-flex  pt-3">
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block ">Altar do Holocausto </strong>
+        </p>
+        <audio controls autoplay preload id="meuAudio">
+          <source src="musica/ALTAR_HOLOCAUSTO.mp3" type="audio/mpeg">
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
+      </div>
+
+  </div>
+</div>
 
 </div><!-- container-fluid -->
 </body>
